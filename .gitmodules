@@ -1,3 +1,15 @@
 [submodule "classic_control"]
 	path = classic_control
 	url = git@github.com:wanghg1992/quad_classic_control.git
+[submodule "visualization"]
+	path = visualization
+	url = git@github.com:wanghg1992/quad_visualization.git
+[submodule "reinforce_learning"]
+	path = reinforce_learning
+	url = git@github.com:wanghg1992/quad_reinforce_learning.git
+[submodule "robot_description"]
+	path = robot_description
+	url = git@github.com:wanghg1992/quad_robot_description.git
+[submodule "simulation_environment"]
+	path = simulation_environment
+	url = git@github.com:wanghg1992/quad_simulation_environment.git
