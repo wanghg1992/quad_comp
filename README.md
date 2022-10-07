@@ -1,4 +1,5 @@
 # **Compare different algorithm for quadruped**
+![trot in place](https://wanghg1992.github.io/picture/fig1_trot_in_place.png)
 # 1. introduction
 ## 1.1 classic control
 - plan: body trajectory optimization(TO)
