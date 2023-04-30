@@ -20,13 +20,15 @@
     
 # 2. install
 ## 2.1 dependency
-- install anaconda, and new python3.7 environment naming py37
-- install gym: pip3 install gym
-- install pybullet: pip3 install pybullet
-- install baseline: pip3 install baselines
-## 2.2 install gym-quad-env
+- install anaconda or miniconda, and new environment named py37:
 ```shell script
 - git clone git@github.com:wanghg1992/quad_comp.git --recurse-submodules
+- cd quad_comp/
+- conda env create -f environment.yml
+```
+
+## 2.2 install gym-quad-env
+```shell script
 - cd quad_comp/
 - pip3 install -e simulation_environment/
 ```

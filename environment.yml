@@ -1,0 +1,28 @@
+name: py37
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - conda-forge
+  - defaults
+dependencies:
+  - pinocchio=2.5.3=py37ha828af1_0
+  - pip=20.1.1=py37_1
+  - python=3.7.7=h191fe78_0_cpython
+  - protobuf=3.12.3=py37he6710b0_0
+  - tensorboard=1.15.0=pyhb230dea_0
+  - tensorflow=1.15.0=mkl_py37h28c19af_0
+  - tensorflow-estimator=1.15.1=pyh2649769_0
+  - pip:
+    - casadi==3.5.5
+    - gym==0.15.7
+    - matplotlib==3.1.1
+    - numpy==1.18.5
+    - pybullet==3.0.8
+    - pygame==2.1.2
+    - pyquaternion==0.9.9
+    - rospkg==1.4.0
+    - tensorflow-gpu==1.15.0
+    - baselines @ git+https://github.com/openai/baselines.git@ea25b9e8b234e6ee1bca43083f8f3cf974143998
+
+prefix: /path to miniconda3/envs/py37
